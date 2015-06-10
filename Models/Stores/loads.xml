@@ -1,0 +1,932 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	
+	
+
+<!--station left 1 -->
+
+<model>
+<name>Left outer aim9</name>
+<path>Aircraft/F-100D/Models/Stores/aim9/AIM-9.xml</path>
+
+<offsets>
+ <x-m>2</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.6</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer aim9</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>AIM-9 Sidewinder</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left outer agm12</name>
+<path>Aircraft/F-100D/Models/Stores/bullpup/agm12.xml</path>
+
+<offsets>
+ <x-m>1.8</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.82</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer agm12</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>AGM-12 Bullpup</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left outer agm12</name>
+<path>Aircraft/F-100D/Models/Stores/bullpup/agm12.xml</path>
+
+<offsets>
+ <x-m>1.8</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.82</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer agm12</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>AGM-12 Bullpup</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left outer hydra</name>
+<path>Aircraft/F-100D/Models/Stores/sneb/sneb.xml</path>
+
+<offsets>
+ <x-m>2.2</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.62</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer hydra</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>HYDRA 70mm Rocket</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left outer mk82</name>
+<path>Aircraft/DavePack/Stores/Mk82/mk82.xml</path>
+
+<offsets>
+ <x-m>2.2</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer mk82</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>MK-82 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left outer mk83</name>
+<path>Aircraft/F-100D/Models/Stores/mk83/mk83.xml</path>
+
+<offsets>
+ <x-m>1.9</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer mk83</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>MK-83 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Left outer m117</name>
+<path>Aircraft/DavePack/Stores/M117/m117.xml</path>
+
+<offsets>
+ <x-m>2.2</x-m>
+     <y-m>-4.1</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left outer m117</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[0]/selected</property>
+<value>M-117 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[0]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+  
+	
+<!-- station left 2 -->
+
+<model>
+<name>Left Droptank</name>
+<path>Aircraft/F-100D/Models/Stores/tank-sta2.xml</path>
+
+<offsets>
+  <x-m>-0.3</x-m>
+     <y-m>-2.757</y-m>
+     <z-m>-1.0</z-m>
+     <pitch-deg>-4</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left Droptank</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[1]/selected</property>
+<value>Droptank</value>
+</equals>
+<equals>
+<property>controls/armament/station[1]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left mid hydra</name>
+<path>Aircraft/F-100D/Models/Stores/sneb/sneb.xml</path>
+
+<offsets>
+  <x-m>1</x-m>
+     <y-m>-2.757</y-m>
+     <z-m>-0.75</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left mid hydra</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[1]/selected</property>
+<value>HYDRA 70mm Rocket</value>
+</equals>
+<equals>
+<property>controls/armament/station[1]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left mid mk82</name>
+<path>Aircraft/DavePack/Stores/Mk82/mk82.xml</path>
+
+<offsets>
+  <x-m>1</x-m>
+     <y-m>-2.757</y-m>
+     <z-m>-0.75</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left mid mk82</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[1]/selected</property>
+<value>MK-82 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[1]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<!-- Station left 3 -->
+
+<model>
+<name>Left inner aim9</name>
+<path>Aircraft/F-100D/Models/Stores/aim9/AIM-9.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>-1.32</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left inner aim9</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[2]/selected</property>
+<value>AIM-9 Sidewinder</value>
+</equals>
+<equals>
+<property>controls/armament/station[2]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Left inner agm12</name>
+<path>Aircraft/F-100D/Models/Stores/bullpup/agm12.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>-1.32</y-m>
+     <z-m>-0.86</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left inner agm12</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[2]/selected</property>
+<value>AGM-12 Bullpup</value>
+</equals>
+<equals>
+<property>controls/armament/station[2]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left inner hydra</name>
+<path>Aircraft/F-100D/Models/Stores/sneb/sneb.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>-1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left inner hydra</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[2]/selected</property>
+<value>HYDRA 70mm Rocket</value>
+</equals>
+<equals>
+<property>controls/armament/station[2]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left inner mk82</name>
+<path>Aircraft/DavePack/Stores/Mk82/mk82.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>-1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left inner mk82</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[2]/selected</property>
+<value>MK-82 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[2]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Left inner mk83</name>
+<path>Aircraft/F-100D/Models/Stores/mk83/mk83.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>-1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left inner mk83</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[2]/selected</property>
+<value>MK-83 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[2]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Left inner m117</name>
+<path>Aircraft/DavePack/Stores/M117/m117.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>-1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Left inner m117</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[2]/selected</property>
+<value>M-117 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[2]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+
+<!-- Station right 3 -->
+  
+<model>
+<name>Right inner aim9</name>
+<path>Aircraft/F-100D/Models/Stores/aim9/AIM-9.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>1.32</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right inner aim9</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[3]/selected</property>
+<value>AIM-9 Sidewinder</value>
+</equals>
+<equals>
+<property>controls/armament/station[3]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Right inner agm12</name>
+<path>Aircraft/F-100D/Models/Stores/bullpup/agm12.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>1.32</y-m>
+     <z-m>-0.86</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right inner agm12</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[3]/selected</property>
+<value>AGM-12 Bullpup</value>
+</equals>
+<equals>
+<property>controls/armament/station[3]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Right inner hydra</name>
+<path>Aircraft/F-100D/Models/Stores/sneb/sneb.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right inner hydra</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[3]/selected</property>
+<value>HYDRA 70mm Rocket</value>
+</equals>
+<equals>
+<property>controls/armament/station[3]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Right inner mk82</name>
+<path>Aircraft/DavePack/Stores/Mk82/mk82.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right inner mk82</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[3]/selected</property>
+<value>MK-82 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[3]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Right inner mk83</name>
+<path>Aircraft/F-100D/Models/Stores/mk83/mk83.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right inner mk83</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[3]/selected</property>
+<value>MK-83 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[3]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Right inner m117</name>
+<path>Aircraft/DavePack/Stores/M117/m117.xml</path>
+
+<offsets>
+ <x-m>-1.7</x-m>
+     <y-m>1.32</y-m>
+     <z-m>-0.7</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right inner m117</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[3]/selected</property>
+<value>M-117 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[3]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+	
+<!-- station right 2 -->
+
+<model>
+<name>Right Droptank</name>
+<path>Aircraft/F-100D/Models/Stores/tank-sta6.xml</path>
+
+<offsets>
+ <x-m>-0.3</x-m>
+     <y-m>2.757</y-m>
+     <z-m>-1.0</z-m>
+     <pitch-deg>-4</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right Droptank</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[4]/selected</property>
+<value>Droptank</value>
+</equals>
+<equals>
+<property>controls/armament/station[4]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Right mid hydra</name>
+<path>Aircraft/F-100D/Models/Stores/sneb/sneb.xml</path>
+
+<offsets>
+  <x-m>1</x-m>
+     <y-m>2.757</y-m>
+     <z-m>-0.75</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right mid hydra</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[4]/selected</property>
+<value>HYDRA 70mm Rocket</value>
+</equals>
+<equals>
+<property>controls/armament/station[4]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Right mid mk82</name>
+<path>Aircraft/DavePack/Stores/Mk82/mk82.xml</path>
+
+<offsets>
+  <x-m>1</x-m>
+     <y-m>2.757</y-m>
+     <z-m>-0.75</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right mid mk82</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[4]/selected</property>
+<value>MK-82 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[4]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation> 
+
+<!-- station right 1 -->
+  	
+<model>
+<name>Right outer aim9</name>
+<path>Aircraft/F-100D/Models/Stores/aim9/AIM-9.xml</path>
+
+<offsets>
+ <x-m>2</x-m>
+     <y-m>4.1</y-m>
+     <z-m>-0.6</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right outer aim9</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[5]/selected</property>
+<value>AIM-9 Sidewinder</value>
+</equals>
+<equals>
+<property>controls/armament/station[5]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+  
+
+  <model>
+<name>Right outer agm12</name>
+<path>Aircraft/F-100D/Models/Stores/bullpup/agm12.xml</path>
+
+<offsets>
+ <x-m>1.8</x-m>
+     <y-m>4.1</y-m>
+     <z-m>-0.82</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right outer agm12</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[5]/selected</property>
+<value>AGM-12 Bullpup</value>
+</equals>
+<equals>
+<property>controls/armament/station[5]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+  
+  
+ <model>
+<name>Right outer hydra</name>
+<path>Aircraft/F-100D/Models/Stores/sneb/sneb.xml</path>
+
+<offsets>
+ <x-m>2.2</x-m>
+     <y-m>4.1</y-m>
+     <z-m>-0.62</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right outer hydra</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[5]/selected</property>
+<value>HYDRA 70mm Rocket</value>
+</equals>
+<equals>
+<property>controls/armament/station[5]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation> 
+
+<model>
+<name>Right outer mk82</name>
+<path>Aircraft/DavePack/Stores/Mk82/mk82.xml</path>
+
+<offsets>
+ <x-m>2.2</x-m>
+     <y-m>4.1</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right outer mk82</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[5]/selected</property>
+<value>MK-82 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[5]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+
+<model>
+<name>Right outer mk83</name>
+<path>Aircraft/F-100D/Models/Stores/mk83/mk83.xml</path>
+
+<offsets>
+ <x-m>1.9</x-m>
+     <y-m>4.1</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right outer mk83</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[5]/selected</property>
+<value>MK-83 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[5]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+<model>
+<name>Right outer m117</name>
+<path>Aircraft/DavePack/Stores/M117/m117.xml</path>
+
+<offsets>
+ <x-m>2.2</x-m>
+     <y-m>4.1</y-m>
+     <z-m>-0.72</z-m>
+     <pitch-deg>0</pitch-deg>
+</offsets>
+</model>	
+
+<animation>
+<type>select</type>
+<object-name>Right outer m117</object-name>      
+<condition>
+<and>
+<equals>
+<property>sim/weight[5]/selected</property>
+<value>M-117 Bomb</value>
+</equals>
+<equals>
+<property>controls/armament/station[5]/release</property>
+<value>false</value>
+</equals>
+</and>
+</condition>
+</animation>
+
+</PropertyList>
